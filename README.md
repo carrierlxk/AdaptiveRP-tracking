@@ -14,7 +14,7 @@ We expliot region proposal from object detection to address object re-detection 
 
 3.Download Egdebox toolkit:https://github.com/pdollar/toolbox
 
-4run "run_tracker_demo.m"
+4.Run "run_tracker_demo.m"
 
 
 ### Citation
@@ -22,8 +22,12 @@ If you find the code and dataset useful in your research, please consider citing
 
 @article{lu2019adaptive,
   title={Adaptive Region Proposal with Channel Regularization for Robust Object Tracking},
+  
   author={Lu, Xiankai and Ma, Chao and Ni, Bingbing and Yang, Xiaokang},
+  
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  
   year={2019},
+  
   publisher={IEEE}
 }
