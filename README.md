@@ -11,10 +11,12 @@ We expliot region proposal from object detection to address object re-detection 
 1.Setup matconvet (recompile it if it is not comptiable with your machine) http://www.vlfeat.org/matconvnet/
 
 2.Download the VGG-19 model "imagenet-vgg-verydeep-19.mat" http://www.vlfeat.org/matconvnet/pretrained/
+Create a new folder called model, put the VGG-19 model into the folder.
 
 3.Download Egdebox toolkit:https://github.com/pdollar/toolbox
+rename it as edgebox
 
-4.Run "run_tracker_demo.m"
+4.Run "run_tracker1.m"
 
 
 ### Citation
