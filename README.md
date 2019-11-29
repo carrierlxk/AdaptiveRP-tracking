@@ -8,7 +8,7 @@ We expliot region proposal from object detection to address object re-detection 
 ![](../master/framework1_1.png)
 
 ## Startup
-1.Setup matconvet (recompile it if it is not comptiable with your machine)
+1.Setup matconvet (recompile it if it is not comptiable with your machine) http://www.vlfeat.org/matconvnet/
 
 2.Download the VGG-19 model "imagenet-vgg-verydeep-19.mat" http://www.vlfeat.org/matconvnet/pretrained/
 
