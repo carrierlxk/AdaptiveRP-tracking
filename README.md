@@ -1,4 +1,7 @@
+### CFRP
+
 This is the code of our IEEE CSVT paper: Adaptive Region Proposal with Channel Regularization for Robust Object Tracking
+We expliot region proposal from object detection to address object re-detection and scale estimation issue in object tracking.
 
 ##
 
@@ -6,8 +9,13 @@ This is the code of our IEEE CSVT paper: Adaptive Region Proposal with Channel R
 
 ## Startup
 1.Setup matconvet (recompile it if it is not comptiable with your machine)
-2.download the VGG-19 model "imagenet-vgg-verydeep-19.mat"
-3.run "run_tracker_demo.m"
+
+2.Download the VGG-19 model "imagenet-vgg-verydeep-19.mat"
+
+3.Download Egdebox toolkit:https://github.com/pdollar/toolbox
+
+4run "run_tracker_demo.m"
+
 
 ### Citation
 If you find the code and dataset useful in your research, please consider citing:
