@@ -5,7 +5,7 @@ warning off;
 % ================================================================================
 % Environment setting
 % ================================================================================
-% 这里的re-detection用的是传统的hand-crafted特征
+% 杩欓噷鐨剅e-detection鐢ㄧ殑鏄紶缁熺殑hand-crafted鐗瑰緛
 indLayers = [37, 28, 19];   % The CNN layers Conv5-4, Conv4-4, and Conv3-4 in VGG Net
 nweights  = [1, 0.5, 0.02]; % Weights for combining correlation filter responses
 numLayers = length(indLayers);
@@ -25,7 +25,7 @@ config.window_sz=window_sz;
 config.app_sz=app_sz;
 [ratio1 ,ratio2]=deal(window_sz(1)/target_sz(1) , window_sz(2)/target_sz(2));
 addpath('edgesbox\');
-addpath('train\')
+addpath('Diagnose\')
 addpath(genpath('E:\lu Xiankai\Diagnose\'));
 %addpath(genpath('C:\Program Files\MATLAB\R2012b\toolbox\toolbox-master'));
 model=load('edgesbox\models\forest\modelBsds'); model=model.model;
