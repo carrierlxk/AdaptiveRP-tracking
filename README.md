@@ -1,6 +1,6 @@
 ### CFRP
 
-This is the code of our IEEE CSVT paper: 'Adaptive Region Proposal with Channel Regularization for Robust Object Tracking'.
+This is the code of our IEEE CSVT paper: "Adaptive Region Proposal with Channel Regularization for Robust Object Tracking".
 We expliot region proposal from object detection to address object re-detection and scale estimation issue in object tracking.
 
 ##
