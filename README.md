@@ -25,6 +25,7 @@ The tracking results on OTB-2015 dataset can be downloaded from [googledrive](ht
 If you find the code and dataset useful in your research, please consider citing:
 
 @article{lu2019adaptive,
+
   title={Adaptive Region Proposal with Channel Regularization for Robust Object Tracking},
   
   author={Lu, Xiankai and Ma, Chao and Ni, Bingbing and Yang, Xiaokang},
